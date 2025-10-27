@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Red Capsicum",
+    "category": "greenhouse products",
+    "price": 120,
+    "image": "images/redcapsicum.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Yellow Capsicum",
+    "category": "greenhouse products",
+    "price": 130,
+    "image": "images/yellow.jpg"
+  },
+  {
+    "id": 3,
+    "name": "English Cucumber",
+    "category": "greenhouse products",
+    "price": 90,
+    "image": "images/cucumber.webp"
+  },
+  {
+    "id": 4,
+    "name": "Pure Honey",
+    "category": "other products",
+    "price": 450,
+    "image": "images/honey.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Red Chilli Powder",
+    "category": "other products",
+    "price": 220,
+    "image": "images/redchilli.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Farm Fresh Ghee",
+    "category": "other products",
+    "price": 850,
+    "image": "images/ghee.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ginger Powder",
+    "category": "other products",
+    "price": 260,
+    "image": "images/ginger.jpg"
+  }
+]

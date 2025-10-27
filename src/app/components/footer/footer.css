@@ -1,0 +1,44 @@
+/* 🌿 Footer Styling */
+.footer {
+  background: #4caf50;
+  color: #5f786b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 1.8rem 0;
+  width: 100%;
+  border-top: 2px solid rgba(163, 217, 119, 0.4);
+}
+
+/* Footer text */
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* --- Responsive --- */
+@media (max-width: 1024px) {
+  .footer p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 0;
+  }
+  .footer p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1.2rem 0;
+  }
+  .footer p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+}

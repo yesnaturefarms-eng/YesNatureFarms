@@ -1,1 +1,155 @@
-/* You can add global styles to this file, and also import other style files */
+/* 🌿 YesNatureFarms Global Styles */
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 🌼 Refreshed Color Palette */
+:root {
+  --primary-color: #8ccf72; /* 🌿 lighter fresh green */
+  --secondary-color: #d9b55a; /* warm golden accent */
+  --accent-color: #bfea8b; /* 🍃 soft nature green for buttons */
+  --text-color: #2f2f2f;
+}
+
+/* 🌻 Typography */
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* 🌾 Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+.mb-2 {
+  margin-bottom: 1rem;
+}
+.p-2 {
+  padding: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* 🍯 Material Toolbar Customization */
+.mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.3s ease;
+}
+
+.mat-toolbar .logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mat-toolbar button {
+  color: #0b0b0b !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.mat-toolbar button:hover {
+  transform: translateY(-1px);
+}
+
+/* 🍃 Card Aesthetics */
+.mat-card {
+  border-radius: 12px !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌱 Button Styling */
+button.mat-button {
+  text-transform: none;
+  border-radius: 6px;
+}
+
+button.mat-raised-button {
+  color: #4f4726 !important;
+  box-shadow: 0 3px 8px rgba(191, 234, 139, 0.35);
+  transition: all 0.3s ease;
+}
+
+button.mat-raised-button:hover {
+  box-shadow: 0 5px 12px rgba(191, 234, 139, 0.45);
+  transform: translateY(-2px);
+}
+
+/* 🌿 Section Spacing */
+section {
+  padding: auto;
+}
+
+/* 🍇 Footer */
+footer {
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* 🍀 Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .mat-toolbar .logo {
+    font-size: 1.2rem;
+  }
+
+  .mat-toolbar button {
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,80 @@
+<div class="home-page">
+  <!-- Hero Section with Banner -->
+  <section class="hero-section">
+    <img src="/farm.jpg" alt="Organic farming at Yes Nature Farms" class="banner-image" />
+
+
+    <div class="hero-content fade-in-up">
+      <h1 class="hero-title">Welcome to Yes Nature Farms</h1>
+      <p class="hero-subtitle">
+        Pure, Natural & Healthy — Direct from Farm to Your Home
+      </p>
+      <button mat-raised-button color="accent" class="cta-button bounce" (click)="exploreProducts()">
+        Explore Products
+      </button>
+    </div>
+
+    <!-- Floating leaves animation -->
+    <div class="floating-leaf leaf1">🍃</div>
+    <div class="floating-leaf leaf2">🌿</div>
+    <div class="floating-leaf leaf3">🍂</div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section">
+    <div class="container">
+      <h2>Why Choose Yes Nature Farms</h2>
+      <div class="features-grid">
+        <mat-card class="feature-card fade-slide-up" *ngFor="let feature of features">
+          <mat-card-content>
+            <h3>{{ feature.title }}</h3>
+            <p>{{ feature.description }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </section>
+
+  <!-- Journey Section -->
+  <!-- Journey Section -->
+  <section class="journey-section wave-fade">
+    <div class="journey-header">
+      <h2>Preparing for a journey for a <em>better</em> tomorrow...</h2>
+      <hr class="journey-divider" />
+    </div>
+  </section>
+
+  <!-- Intro Section (moved out) -->
+  <section class="intro-section">
+    <div class="container fade-in">
+      <p class="intro-text">
+        We are here to serve you premium-quality products directly from farm to your table,
+        enriching your food dishes and delivering superior taste.
+      </p>
+      <p class="intro-text">
+        Grow smarter, yield more with pest-free cultivation and naturally ventilated
+        polyhouse structures that ensure year-round protection and production for a sustainable future.
+      </p>
+    </div>
+  </section>
+
+  <!-- <section class="journey-section wave-fade">
+    <div class="journey-header">
+      <h2>Preparing for a journey for a <em>better</em> tomorrow...</h2>
+      <hr class="journey-divider" />
+      <section class="intro-section">
+        <div class="container fade-in">
+          <p class="intro-text">
+            We are here to serve you premium-quality products directly from farm to your table,
+            enriching your food dishes and delivering superior taste.
+          </p>
+          <p class="intro-text">
+            Grow smarter, yield more — with pest-free cultivation and naturally ventilated
+            polyhouse structures that ensure year-round protection and production for a sustainable future.
+          </p>
+        </div>
+      </section>
+
+    </div>
+  </section> -->
+</div>

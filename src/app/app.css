@@ -1,0 +1,16 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* background: linear-gradient(120deg, #173311, #b0ee7d); */
+}
+.main-content {
+  flex: 1;
+}
+
+main {
+  position: relative;
+  display: block;
+  overflow-x: hidden;
+  min-height: auto;
+}

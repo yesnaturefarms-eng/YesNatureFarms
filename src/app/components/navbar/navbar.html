@@ -1,0 +1,28 @@
+<mat-toolbar color="primary" class="navbar" [ngClass]="{ scrolled: scrolled }">
+  <div class="nav-container">
+    <!-- Logo + Brand -->
+    <span class="logo" routerLink="/">
+      <img src="images/logo.png" alt="Logo" class="logo-img" />
+      <span class="logo-green">{{ appName }}</span>
+      <span class="logo-red">{{ appName2 }}</span>
+    </span>
+
+    <!-- Hamburger Menu -->
+    <button class="hamburger" (click)="toggleMenu()">☰</button>
+
+    <div class="nav-links" [class.open]="menuOpen">
+      <button
+        mat-button
+        *ngFor="let link of navLinks"
+        [routerLink]="link.path"
+        routerLinkActive="active-link"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        {{ link.label }}
+      </button>
+    </div>
+  </div>
+</mat-toolbar>
+
+<!-- Slim route loader -->
+<div class="route-loader" *ngIf="loading"></div>
